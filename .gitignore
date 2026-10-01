@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# your own material and results (folders themselves are kept)
+inputs/documents/*
+inputs/images/*
+output/*
+!inputs/documents/.gitkeep
+!inputs/images/.gitkeep
+!output/.gitkeep
+
+# OS noise
+.DS_Store
+Thumbs.db
