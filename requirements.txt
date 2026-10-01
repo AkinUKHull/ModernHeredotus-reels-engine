@@ -1,0 +1,8 @@
+# Install everything with:  pip install -r requirements.txt
+anthropic>=1.11,<2        # Claude API (step 1)
+PyPDF2>=3.0,<4            # read PDF files (step 1)
+python-dotenv>=1.0,<2     # read the API key from the .env file
+edge-tts>=7.2,<8          # Turkish text-to-speech (step 2)
+moviepy>=2.1,<3           # video editing and export (step 2)
+Pillow>=10.1              # images, Ken Burns effect and subtitle drawing
+numpy>=1.26               # image maths used by MoviePy and the Ken Burns effect
